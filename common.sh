@@ -9,7 +9,7 @@ Y="\e[33m"
 N="\e[0m"
 SCRIPT_DIR=$PWD
 START_TIME=$(date +%s)
-$MONGODB_HOST=mongodb.durgagopalakrishna.online
+MONGODB_HOST="mongodb.durgagopalakrishna.online"
 
 mkdir -p $LOGS_FOLDER
 
